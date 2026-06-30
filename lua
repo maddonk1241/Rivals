@@ -35,9 +35,8 @@ end
 
 local function runProtectedScript()
     local ok, err = pcall(function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/maddonk1241/Rivals/774a3493b86b04bf5e013b5b9a1b0cd550663a92/Rivals.lua"))()
-    end)
-
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/maddonk1241/Rivals/774a3493b86b04bf5e013b5b9a1b0cd550663a92/Rivals.lua"))()
+        end)
     if ok then
         notify("Key accepted. Script loaded.", 3)
         return true
