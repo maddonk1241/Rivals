@@ -35,7 +35,7 @@ end
 
 local function runProtectedScript()
     local ok, err = pcall(function()
-        loadstring(game:HttpGet("https://github.com/maddonk1241/Rivals/blob/2eebdce8f2451b5f14c54585eabb0c6d5b0f0580/Rivals.lua"))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/maddonk1241/Rivals/774a3493b86b04bf5e013b5b9a1b0cd550663a92/Rivals.lua"))()
     end)
 
     if ok then
